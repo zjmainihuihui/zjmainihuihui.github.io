@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>ubuntu驱动安装</title>
+    <link href="/2023/06/05/ubun%E9%A9%B1%E5%8A%A8%E5%AE%89%E8%A3%85/"/>
+    <url>/2023/06/05/ubun%E9%A9%B1%E5%8A%A8%E5%AE%89%E8%A3%85/</url>
+    
+    <content type="html"><![CDATA[<h1 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h1><span id="more"></span><figure class="highlight text"><table><tr><td class="gutter"><div class="code-wrapper"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></div></td><td class="code"><pre><code class="hljs text">apt-get install build-essential  make g++<br>vi /etc/modprobe.d/blacklist.conf<br></code></pre></td></tr></table></figure><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs text">blacklist nouveau<br>options nouveau modeset=0<br></code></pre></td></tr></table></figure><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs text">sudo update-initramfs -u<br></code></pre></td></tr></table></figure><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs text">./NVIDIA-……………….run* --no-opengl-files --no-x-check --no-nouveau-check <br></code></pre></td></tr></table></figure><p><img src="image-20230605131509724.png" alt=" "></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>个人总结</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>linux</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  
+</search>
